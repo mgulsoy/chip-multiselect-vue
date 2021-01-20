@@ -1,4 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import chipMultiselectVue from './components/chip-multiselect-vue';
 
-createApp(App).mount('#app')
+export default chipMultiselectVue
+
+if (typeof window !== 'undefined' && window.Vue) {
+  //register browser namespace
+  window.chipMultiselectVue = chipMultiselectVue;
+}
