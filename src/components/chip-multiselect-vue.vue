@@ -39,7 +39,6 @@
             },
             props: [ 'placeholder', 'searchable', 'optionlabel', 'optionvalue', 'options', 'modelValue' ],
             emits: [ 'update:modelValue' ],
-            template: document.querySelector( '#template' ).innerHTML,
             computed: {
                 graph() {
                     let q = this.typed.toLocaleLowerCase();
