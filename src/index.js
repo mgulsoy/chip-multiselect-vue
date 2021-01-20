@@ -1,1 +1,0 @@
-export { default as chipMultiselectVue } from './chip-multiselect-vue'
