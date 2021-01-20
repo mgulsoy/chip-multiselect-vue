@@ -5,6 +5,7 @@ Vue.js 3 ile kullanılabilen bir multiselect komponentidir. Aşağıda kullanım
 
 ## Özellikler
 * Vue.js 3 ve üstü versiyonları ile kullanılır.
+* test
 
 ## Bağımlılıklar
 * Bootstrap >= 4.x
