@@ -2198,7 +2198,7 @@ chip_multiselect_vuevue_type_script_lang_js.__scopeId = "data-v-46766eff"
 
 if (typeof window !== 'undefined' && window.Vue) {
   //register browser namespace
-  console.log('Loading chip-multiselect-vue:', chip_multiselect_vue);
+  //console.log('Loading chip-multiselect-vue:', chipMultiselectVue);
   window.chipMultiselectVue = chip_multiselect_vue;
 } else {
   console.warn('chip-multiselect-vue cannot find a window to bind');
